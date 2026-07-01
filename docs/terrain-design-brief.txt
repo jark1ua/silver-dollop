@@ -1,0 +1,302 @@
+You are an expert Blender environment artist, technical director, procedural terrain designer, geologist, GIS specialist, and world-building engineer.
+Your task is to design and construct a massive northern wilderness terrain in Blender that faithfully represents the following geological characteristics:
+A colossal, ancient landscape dominated by mountain systems, glacial erosion, tectonic uplift, volcanic disruption, river incision, and extreme topographic variation.
+A terrain whose scale feels far larger than its actual dimensions because visibility is constantly interrupted by ridges, forests, cliffs, valleys, and mountain walls.
+An environment where natural barriers isolate entire regions from one another.
+Do not treat this as a simple terrain generation task. Build it as a complete geological system whose landforms appear to have evolved naturally over immense spans of time.
+?????????????????????????????? PRIMARY TERRAIN OBJECTIVES ??????????????????????????????
+The terrain must contain:
+A hostile glaciated coastline:
+Massive sea cliffs.
+Fjords.
+Jagged headlands.
+Narrow inlets.
+Sea stacks.
+Fractured rocky coastlines.
+Ice-choked bays.
+Glacially carved coastal valleys.
+Extensive shoreline erosion.
+Mountain systems:
+Multiple mountain ranges acting as natural walls.
+Rare traversable passes.
+High relief.
+Strong vertical scale.
+Forested foothills.
+Talus fields.
+Scree slopes.
+Snow-covered summits.
+Storm-shrouded peaks.
+A central super-peak:
+Significantly taller than all surrounding terrain.
+Dominates the horizon from extreme distances.
+Serves as the focal point from which valleys and mountain systems radiate.
+Complex vertical terrain:
+Escarpments.
+Mesas.
+Plateaus.
+Ridges.
+Basins.
+Hidden valleys.
+Deep depressions.
+Cliffs.
+Ravines.
+Natural bottlenecks.
+Extensive evergreen forests:
+Dense coniferous woodland.
+Hidden gullies.
+Rocky outcrops.
+Uneven ground.
+Concealed waterways.
+Broken terrain beneath canopy cover.
+Open plains and grasslands:
+Rolling terrain.
+Glacial till fields.
+Broad horizons.
+Low relief compared to mountain zones.
+Long-distance visibility.
+Volcanic and tectonic regions:
+Fault scarps.
+Rift-like formations.
+Black volcanic stone.
+Basaltic plateaus.
+Geothermal vents.
+Sulfur deposits.
+Steam fields.
+Fractured crust.
+Collapsed calderas.
+River systems:
+Glacial origins.
+Watersheds.
+Tributary networks.
+Deep canyons.
+Rapids.
+Waterfalls.
+River terraces.
+Floodplains.
+Incised valleys.
+Subsurface and fracture systems:
+Sink-like depressions.
+Fault zones.
+Cave entrances.
+Crevices.
+Chasms.
+Hanging valleys.
+Cirques.
+U-shaped glacial valleys.
+Polar and tundra regions:
+Sparse vegetation.
+Snowfields.
+Ice sheets.
+Glaciers.
+Moraines.
+Ice shelves.
+Frozen coastlines.
+Iceberg-filled waters.
+The terrain should feel ancient, monumental, and geologically believable.
+?????????????????????????????? BLENDER WORKFLOW REQUIREMENTS ??????????????????????????????
+Use a layered geological workflow rather than direct sculpting.
+FOUNDATION STAGE
+Create continental-scale forms using:
+Geometry Nodes.
+Procedural displacement.
+Multi-resolution terrain generation.
+Musgrave noise.
+Ridged multifractal noise.
+Voronoi systems.
+Hybrid noise stacking.
+Generate:
+Primary tectonic uplift.
+Continental shelf transitions.
+Large drainage basins.
+Macro mountain systems.
+Avoid artificial terrain patterns.
+Terrain must follow realistic watershed logic.
+?????????????????????????????? MOUNTAIN GENERATION ??????????????????????????????
+Construct mountains using:
+Geometry Nodes procedural mountain generators.
+Layered displacement systems.
+Erosion-driven shaping.
+Ridge masking.
+Height-based geological controls.
+Mountain ranges should display:
+Folded terrain.
+Fault-block structures.
+Alpine ridges.
+Glacially sharpened peaks.
+Arêtes.
+Horns.
+Hanging valleys.
+The central peak should be generated as a separate geological feature.
+Use:
+Radial uplift systems.
+Peak-specific displacement stacks.
+Multiple erosion passes.
+It must visually dominate all surrounding terrain.
+?????????????????????????????? GLACIAL EROSION SYSTEM ??????????????????????????????
+Use:
+A.N.T. Landscape.
+Geo-Scatter erosion workflows.
+Gaea-generated masks.
+World Creator exports.
+Houdini erosion caches.
+Custom Geometry Nodes erosion systems.
+Simulate:
+Cirques.
+U-shaped valleys.
+Fjords.
+Moraines.
+Glacial scour.
+Ice-carved basins.
+Hanging valleys.
+Glacial features should be visible at both macro and micro scales.
+?????????????????????????????? HYDROLOGY ??????????????????????????????
+Generate river systems procedurally.
+Use:
+Geometry Nodes river carving.
+GIS flow maps.
+Terrain flow simulations.
+Erosion masks.
+Heightfield analysis.
+Rivers should:
+Begin in glaciers.
+Follow realistic watersheds.
+Join tributary systems.
+Carve canyons naturally.
+Produce floodplains in lower elevations.
+Waterways should appear responsible for shaping the terrain.
+?????????????????????????????? TECTONIC AND VOLCANIC REGIONS ??????????????????????????????
+Use:
+Fracture masks.
+Fault displacement systems.
+Layered geological materials.
+Cracked terrain generators.
+Create:
+Rift zones.
+Fault scarps.
+Volcanic plateaus.
+Lava fields.
+Caldera remnants.
+Geothermal zones.
+Apply:
+Basalt materials.
+Sulfur deposits.
+Mineral staining.
+Hydrothermal weathering.
+These regions should feel violently disrupted compared to surrounding landscapes.
+?????????????????????????????? FOREST GENERATION ??????????????????????????????
+Use:
+Geo-Scatter.
+Botaniq.
+The Grove.
+Geometry Nodes scattering systems.
+Forest Pack-style density workflows.
+Generate:
+Dense evergreen forests.
+Variable density.
+Natural clearings.
+Rocky forest floors.
+Hidden valleys.
+Canopy distribution should reinforce terrain scale and concealment.
+Forests must obscure entire valleys and waterways from aerial views.
+?????????????????????????????? BIOME DISTRIBUTION ??????????????????????????????
+Drive ecosystems using:
+Elevation masks.
+Temperature masks.
+Slope masks.
+Moisture masks.
+Wind exposure masks.
+Biomes include:
+Coastal tundra.
+Boreal forest.
+Alpine terrain.
+Volcanic barrens.
+Glacial deserts.
+Grassland plains.
+Transitions should be gradual and geologically believable.
+?????????????????????????????? RECOMMENDED BLENDER ADDONS ??????????????????????????????
+Use any combination of:
+Terrain Creation
+A.N.T. Landscape
+Geo-Scatter
+Geo-Scatter Biomes
+True Terrain
+Terrain Mixer
+BlenderGIS
+Gaea
+World Machine
+World Creator
+Houdini Heightfields
+Vegetation
+Botaniq
+The Grove
+Geo-Scatter
+Graswald
+Forest Generator
+Materials
+Geo-Scatter Surface System
+Quixel Megascans
+Poliigon
+BlenderKit
+Geological Detail
+Cell Fracture
+Tissue
+Sverchok
+Molecular+
+Geometry Nodes custom systems
+Atmosphere
+Physical Starlight and Atmosphere
+SkyLab
+Procedural Volumetric Clouds
+?????????????????????????????? GEOMETRY NODES SYSTEMS ??????????????????????????????
+Create node networks for:
+Elevation masks.
+Curvature masks.
+Flow accumulation masks.
+Snow deposition.
+Talus generation.
+Cliff detection.
+Forest distribution.
+River carving.
+Slope analysis.
+Erosion masks.
+Sediment deposition.
+Glacier placement.
+Everything should remain as procedural as possible.
+?????????????????????????????? MATERIAL SYSTEM ??????????????????????????????
+Use layered physically-based materials driven by:
+Height.
+Slope.
+Curvature.
+Moisture.
+Temperature.
+Materials include:
+Granite.
+Gneiss.
+Schist.
+Basalt.
+Volcanic ash.
+Tundra soil.
+Glacial ice.
+Snow.
+Scree.
+Moss.
+Conifer litter.
+Avoid obvious texture repetition.
+Use triplanar projection where necessary.
+?????????????????????????????? SCALE AND VISUAL DESIGN ??????????????????????????????
+The most important artistic requirement:
+Every horizon must imply additional hidden terrain beyond it.
+Use:
+Terrain occlusion.
+Layered ridgelines.
+Nested valleys.
+Atmospheric perspective.
+Forest screening.
+Cliff interruptions.
+Ridge concealment.
+The landscape should never reveal itself all at once.
+Mountains must hide entire regions.
+Forests must conceal valleys.
+Rivers must disappear into canyons.
+The world should feel vastly larger than its measurable dimensions.
+The final result should resemble a geologically authentic northern super-region formed by tectonic uplift, volcanism, glaciation, erosion, and deep time rather than a conventional fantasy map or game terrain.

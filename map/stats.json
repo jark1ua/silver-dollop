@@ -1,0 +1,42 @@
+{
+  "seed": "20260701",
+  "graphWidth": 2048,
+  "graphHeight": 2048,
+  "template": "northreach",
+  "mapCoordinates": {
+    "latT": 30.1,
+    "latN": 75,
+    "latS": 44.9,
+    "lonT": 30.1,
+    "lonW": -15,
+    "lonE": 15.1
+  },
+  "landPct": "91.9",
+  "cellsPack": 77338,
+  "biomeCount": {
+    "Marine": 6291,
+    "Taiga": 21321,
+    "Tundra": 8023,
+    "Glacier": 11050,
+    "Wetland": 469,
+    "Cold desert": 7436,
+    "Grassland": 13951,
+    "Temperate deciduous forest": 6368,
+    "Temperate rainforest": 2429
+  },
+  "rivers": 839,
+  "maxHeight": 100,
+  "presets": [
+    "political",
+    "cultural",
+    "religions",
+    "provinces",
+    "biomes",
+    "heightmap",
+    "physical",
+    "poi",
+    "military",
+    "emblems",
+    "landmass"
+  ]
+}
