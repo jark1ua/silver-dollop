@@ -1,0 +1,47 @@
+[
+  {
+    "b": 0,
+    "name": "Marine",
+    "cells": 6291
+  },
+  {
+    "b": 2,
+    "name": "Cold desert",
+    "cells": 7436
+  },
+  {
+    "b": 4,
+    "name": "Grassland",
+    "cells": 13951
+  },
+  {
+    "b": 6,
+    "name": "Temperate deciduous forest",
+    "cells": 6368
+  },
+  {
+    "b": 8,
+    "name": "Temperate rainforest",
+    "cells": 2429
+  },
+  {
+    "b": 9,
+    "name": "Taiga",
+    "cells": 21321
+  },
+  {
+    "b": 10,
+    "name": "Tundra",
+    "cells": 8023
+  },
+  {
+    "b": 11,
+    "name": "Glacier",
+    "cells": 11050
+  },
+  {
+    "b": 12,
+    "name": "Wetland",
+    "cells": 469
+  }
+]

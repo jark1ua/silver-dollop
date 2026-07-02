@@ -43,6 +43,40 @@ latitude span 45–75°N, scale 1.6 km/px ≈ **3,300 × 3,300 km** region.
 |---|---|---|
 | ![biomes](previews/biomes.png) | ![heightmap](previews/heightmap.png) | ![physical](previews/physical.png) |
 
+## Gaea-ready exports (`export/`)
+
+Pre-extracted 4096×4096 PNGs, rendered headlessly from `map/Northreach.map`
+with `tools/extract.js` (no browser viewport involved):
+
+- `biome_NN_<name>.png` — one monochrome mask per biome (white = biome,
+  black = everything else), same polygon-fill approach as the in-browser
+  console script, at 2× map resolution.
+- `heightmap.png` — grayscale, FMG height 0–100 mapped linearly to 0–255,
+  so **sea level = gray 51**. Ocean floor rendered from the uniform grid
+  (smooth), land from packed cells (refined coastlines).
+- `mask_water.png` — white = ocean + lakes (cells below sea level).
+- `mask_rivers.png` — the full 839-river network rasterized white-on-black.
+- `biomes.json` — biome ids, names and cell counts present on the map.
+
+Regenerate with:
+`node tools/extract.js map/Northreach.map 2` (last arg = scale factor;
+requires the local FMG mirror serving on :8099, see below).
+
+### Viewing the map on the FMG website
+
+The map canvas is 2048×2048. FMG's zoom floor is 100 %
+(`zoom.scaleExtent([1, 20])`), so on a smaller browser window you can only
+ever see a window-sized portion — the map is fine, the viewport is clipped.
+To see all of it, run this once in the browser console after loading:
+
+```js
+zoom.scaleExtent([0.2, 20]);
+```
+
+then zoom out with the mouse wheel. (Alternatively use Tools → Transform to
+resample the map down to your screen size, but that permanently reduces
+detail — not recommended before exporting.)
+
 ## Reproducing / regenerating
 
 Everything is scripted and deterministic (seed `20260701`):
